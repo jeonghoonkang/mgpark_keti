@@ -1,9 +1,24 @@
-#include <stdio.h>
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
 
 using namespace std;
 
 
-int amin(void){
-	cout << "hello" << endl;
+int main(void){
+	int a;
+
+	cin >> a;
+	cout << "hello\n" << a << endl;
 	return 0;
 }
