@@ -7,10 +7,8 @@ sudo apt-get install git
 을 사용하여 git을 설치하면 됩니다.
 
 
-1. 
-일단 리눅스에서 git을 관리할 디렉터리를 하나 만듭니다.
-저의 경우 ~/workspace 로 두었습니다.
--- mkdir ~/workspace
+1. 일단 리눅스에서 git을 관리할 디렉터리를 하나 만듭니다. 저의 경우 ~/workspace 로 두었습니다.
+'' mkdir ~/workspace ''
 
 
 2.
