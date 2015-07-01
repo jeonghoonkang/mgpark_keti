@@ -7,28 +7,23 @@ sudo apt-get install git
 을 사용하여 git을 설치하면 됩니다.
 
 
-1. 
-일단 리눅스에서 git을 관리할 디렉터리를 하나 만듭니다.
+1. 일단 리눅스에서 git을 관리할 디렉터리를 하나 만듭니다.
 저의 경우 ~/workspace 로 두었습니다.
--- mkdir ~/workspace
+<pre> -- mkdir ~/workspace </pre>
 
 
-2.
-만든 디렉터리로 이동하여서 git init 명령으로 git을 초기화 합니다.
+1. 만든 디렉터리로 이동하여서 git init 명령으로 git을 초기화 합니다.
 이 명령을 실행하면 현재 접속중인 디렉터리에 .git 이라는 파일이 생기게 됩니다.
--- cd ~/workspace
-   git init
+<pre>-- cd ~/workspace
+   git init </pre>
 
 
-3.
-이제 이 공간에서 파일을 만들거나 작업을하면 git 저장소에 추가가 됩니다.
+1. 이제 이 공간에서 파일을 만들거나 작업을하면 git 저장소에 추가가 됩니다.
 git status 명령어를 실행하면 현재 git 저장소의 상태를 보여줍니다.
 
 -- git status
 
-
-4.
-git status 명령어를 실행하였을 때, 영어로 설명이 쭉 나오는데,
+1. git status 명령어를 실행하였을 때, 영어로 설명이 쭉 나오는데,
 간단하게 설명드리겠습니다.
 
 앞서 git이 어떻게 동작하는지를 설명드리겠습니다.
@@ -45,8 +40,6 @@ update하고, stage상태로 두고, commit을 사용하면 로컬 저장소에�
 
 로컬영역에서 git디렉터리 안에 파일들의 상태 :
 Untranked : git디렉터리에는 존재하지만, git이 핸들하고 있지 않는 상태
-
-
 
 
 1) Untracked files : 
